@@ -1,5 +1,7 @@
 MealMatch - Assignment 2
 
+GitHub Repository: https://github.com/JaidynWilliams/MealMatch-Assignment2/tree/main/assignment2
+
 Student Name: Jaidyn Williams
 Student ID: 106363738
 
