@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--setting metadata and title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaidyn Williams/106363738">
+    <meta name="description" contents="Home Page for Website">
+    <!--linking CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--Heading-->
+    <header>
+        <h1>MealMatch</h1>
+    </header>
+
+    <!--Navigation Menu-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="recommend.html">Recommendations</a>
+        <a href="register.html">Register</a>
+        <a href="reservation.html">Reservations</a>
+        <a href="bill.html">Bill</a>
+    </nav>
+
+    <!--Register Form-->
+    <section>
+        <h2>Register</h2>
+
+        <form id="registerForm">
+            <!--Username-->
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </p>
+            <!--Email Address-->
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <!--Phone Number-->
+            <p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </p>
+            <!--Password-->
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </p>
+            <!--Confirm Password-->
+            <p>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="confirmPassword" id="confirmPassword" name="confirmPassword">
+            </p>
+            <!--Gender-->
+            <p>
+                Gender:
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </p>
+            <!--Dietary Preferences-->
+            <p>
+                <label for="dietary">Dietary Preferences:</label>
+                <select id="dietary" name="dietary">
+                    <option value="">Select</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="halal">Halal</option>
+                    <option value="none">None</option>
+
+                </select>
+            </p>
+            <!--Country/Region-->
+            <p>
+                <label for="country">Country/Region:</label>
+                <select id="country" name="country">
+                    <option value="">Select</option>
+                    <option value="australia">Australia</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="northAmerica">North America</option>
+                    <option value="africa">Africa</option>
+                    <option value="pacificIslands">Pacific Islands</option>
+                    <option value="southAmerica">South America</option>
+                </select>
+            </p>
+            <!--Submit Button-->
+        <p>
+                <button type="submit">Register</button>
+            </p>
+        </form>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026 MealMatch</p>
+    </footer>
+    
+    <!--linking JavaScript file-->
+    <script src="js/script.js"></script>
+</body>

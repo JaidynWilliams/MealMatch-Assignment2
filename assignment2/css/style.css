@@ -1,0 +1,62 @@
+/*Body*/
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Navigation*/
+nav {
+    background-color: #555;
+    text-align: center;
+}
+
+/*Navigation Text*/
+nav a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Box when hovering over navigation text*/
+nav a:hover {
+    background-color: #777;
+}
+
+/*Section, h2 and p*/
+section {
+    padding: 20px;
+}
+
+/*Images*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Mobile Formatting CSS*/
+@media (max-width: 767px) {
+    nav a   {
+        display: block;
+        margin: 5px 0;
+    }
+    section {
+        padding: 10px;
+    }
+}
