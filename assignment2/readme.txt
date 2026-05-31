@@ -1,5 +1,7 @@
 MealMatch - Assignment 2
 
+Mercury Server URL: https://mercury.swin.edu.au/cos10005/s106363738/assignment2/index.html
+
 GitHub Repository: https://github.com/JaidynWilliams/MealMatch-Assignment2/tree/main/assignment2
 
 Student Name: Jaidyn Williams
